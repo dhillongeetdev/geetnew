@@ -1,0 +1,36 @@
+Git Usage Benefits
+Version control
+Collaboration
+Cloud model
+Tracking changes 
+Code recovery
+https://git-scm.com/downloads
+
+Steps
+0) Installing Git SCM on windows with visual studio as default editor. Thnee you can run in terminal cmd or powershell
+1) Connecting Accounts from here to github ( to be done 1 time only to configure git in system)
+    git config --global user.name "dhillongeetdev"
+    git config --global user.email "dhillongeetdev@gmail.com"
+
+2) Initializing a folder with git in windows and connecting with the right repository
+    git init ( run in the same folder you want to comit git in)
+    git remote add origin "https://github.com/dhillongeetdev/geetnew.git" ( Code>Local>Https in github account)
+
+3) Pull Request ( to pull data from git hub to computer from a branch)
+    git pull origin main ( main is the branch name)
+    
+4) Push from computer to github in a branch
+    git status ( to check what is pending)
+    git add . (. is for all files, i can write file names here 1 after the other)
+    git status
+    git commit -m "any message here"
+    git push
+
+5) creating a new branch 
+    git checkout -b "day1Branch" (day1Branch can be replaced by the new branch name you want to create)
+
+6) switching to old branches
+    git checkout "main" (branch name)
+
+7) Cloning a project
+    git clone https://github.com/dhillongeetdev/geetnew.git ( the url from code>local>https and the clone you need to open the folder where you want to clone this github branch to the computer folder, so in the computer folder open cmd and use this command)
